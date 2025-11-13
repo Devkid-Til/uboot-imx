@@ -82,6 +82,8 @@ cscope.*
 /tags
 /ctags
 /etags
+tags
+
 
 # gnu global files
 GPATH
@@ -92,3 +94,101 @@ GTAGS
 *.orig
 *~
 \#*#
+
+# Created by https://www.toptal.com/developers/gitignore/api/c,c++,tags
+# Edit at https://www.toptal.com/developers/gitignore?templates=c,c++,tags
+
+### C ###
+# Prerequisites
+*.d
+
+# Object files
+*.o
+*.ko
+*.obj
+*.elf
+
+# Linker output
+*.ilk
+*.map
+*.exp
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Libraries
+*.lib
+*.a
+*.la
+*.lo
+
+# Shared objects (inc. Windows DLLs)
+*.dll
+*.so
+*.so.*
+*.dylib
+
+# Executables
+*.exe
+*.out
+*.app
+*.i*86
+*.x86_64
+*.hex
+
+# Debug files
+*.dSYM/
+*.su
+*.idb
+*.pdb
+
+# Kernel Module Compile Results
+*.mod*
+*.cmd
+.tmp_versions/
+modules.order
+Module.symvers
+Mkfile.old
+dkms.conf
+
+### C++ ###
+# Prerequisites
+
+# Compiled Object files
+*.slo
+
+# Precompiled Headers
+
+# Compiled Dynamic libraries
+
+# Fortran module files
+*.mod
+*.smod
+
+# Compiled Static libraries
+*.lai
+
+# Executables
+
+### Tags ###
+# Ignore tags created by etags, ctags, gtags (GNU global) and cscope
+TAGS
+.TAGS
+!TAGS/
+tags
+.tags
+!tags/
+gtags.files
+GTAGS
+GRTAGS
+GPATH
+GSYMS
+cscope.files
+cscope.out
+cscope.in.out
+cscope.po.out
+
+
+# End of https://www.toptal.com/developers/gitignore/api/c,c++,tags
+#创建https://www.toptal.com/developers/gitignore/api/c，c++，标签#编辑在https://www.toptal.com/developers/gitignore?templates=c，c++，标签###C#####先决条件*. d#对象文件*.o*.ko*.obj*.elf#链接器输出*.ilk*.map*.exp#预编译头文件*.gch*.pch#库*.lib*.a*.la*.lo#共享对象（包括Windows DLL）*.dll*.so*.so.**.dylib#可执行文件*.exe*.out*.app*.i*86*.x86_64*.hex#调试文件*.dSYM/*.su*.idb*.pdb#内核模块编译结果*.mod**.cmd.tmp_versions/mods.orderModule.symversMkfile.olddkms.conf###C++####先决条件#编译对象文件*.slo#预编译头文件#编译动态库#Fortran模块文件*
